@@ -26,7 +26,7 @@ skimr::skim(FAS_pups_data)
 ## Select variables
 -selects columns
 ```{r}
-select(litters_data, group, litter, gd0_weight, pups_survive)
+select(litters_data, group, gd0_weight, pups_survive)
 ```
 ... by specifying range:
 

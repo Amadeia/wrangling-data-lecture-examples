@@ -10,10 +10,10 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 ```
 
-## Import FAS csv files
+## Import FAS csv files to use as examples.
 ```{r}
-litterss_data = read_csv(file = "./wrangle_data/FAS_litters.csv")
-litterss_data = janitor::clean_names(litters_data)
+litters_data = read_csv(file = "./wrangle_data/FAS_litters.csv")
+litters_data = janitor::clean_names(litters_data)
 ```
 
 ## Import FAS_pups csv files
